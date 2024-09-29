@@ -1,0 +1,17 @@
+pkgbase = tinymist-nightly-bin
+	pkgdesc = An integrated language service for Typst
+	pkgver = 0.11.27
+	pkgrel = 1
+	url = https://github.com/Myriad-Dreamin/tinymist
+	arch = x86_64
+	license = Apache-2.0
+	depends = gcc-libs
+	depends = glibc
+	provides = tinymist
+	conflicts = tinymist-git
+	conflicts = tinymist-bin
+	options = strip
+	source = https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.11.27/tinymist-linux-x64?v=0.11.27
+	sha256sums = 02d69efed81d43cb4982fc6554c86c5058a420984464999818a87e65dcb20d29
+
+pkgname = tinymist-nightly-bin
